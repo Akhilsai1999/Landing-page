@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Web_Development.css">
+    <title>Landing page</title>
+</head>
+<body>
+    <div class="task-container">
+        <div class="task-form">
+            <h2>Task File</h2>
+            <input type="text" id="taskName" placeholder="Task Name">
+            <input type="date" id="deadline" placeholder="Deadline">
+            <select id="priority">
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+            </select>
+            <button onclick="addTask()">Add Task</button>
+            <button onclick="clearTaskList()">Clear Task List</button>
+
+        </div>
+
+        <div class="task-list">
+            <h2>Task List</h2>
+            <ul id="tasks"></ul>
+        </div>
+    </div>
+
+    <script src="Web_Development.js"></script>
+</body>
+</html>
