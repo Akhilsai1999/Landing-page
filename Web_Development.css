@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.task-container {
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(29, 9, 9, 0.922);
+    padding: 20px;
+    width: 400px;
+}
+
+.task-form input,
+.task-form select,
+.task-form button {
+    margin-bottom: 11px;
+    width: 95%;
+    padding: 11px;
+}
+
+.task-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    background-color: #e8e8e8;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
